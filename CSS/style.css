@@ -127,6 +127,13 @@ section div img{
 
 }
 
+section h3{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 
 /* WHATSAPP */
 
@@ -224,6 +231,12 @@ section div img{
     .imagenes-productos div div button{
         margin-left: 100px;
         margin-bottom: 20px;
+    }
+
+    section h3{
+        font-size: 25px;
+        margin-top: 20px;
+        text-align: center;
     }
     
 }
