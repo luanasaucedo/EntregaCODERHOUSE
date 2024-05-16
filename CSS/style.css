@@ -1,0 +1,229 @@
+/*  */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.headerlogo{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 5px 25px;
+    flex-wrap: wrap;
+   
+}
+
+.headerlogo a img{
+    width: 25px;
+}
+
+header a h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 30px;
+    font-weight: 400;
+}
+
+header div nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px ;
+}
+
+header div nav a{
+    padding: 5px 20px;
+    color: #000000;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.espacio{
+    height: 50px;
+}
+
+/* SECCIÓN MÁS VENDIDOS */
+
+section div img{
+    width: 150px;
+}
+
+.imagenes-productos {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.imagenes-productos div {
+    align-items: center;
+}
+
+.imagenes-productos h2{
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+
+.imagenes-productos div div button{
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 8px 10px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.imagenes-productos img{
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.imagenes-productos div div button{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.btn-buy{
+    --bs-btn-color: rgb(0, 0, 0);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #4f504f;
+    --bs-btn-active-color: #070707;
+    --bs-btn-hover-border-color: rgb(195, 193, 193), 10%;
+}
+
+.btn-buy a{
+    color: white;
+}
+
+.btn-buy p{
+    color: white;
+}
+.btn {
+    background-color:#000000
+}
+
+.card {
+    border-radius: 50px;
+
+}
+
+
+/* WHATSAPP */
+
+.whatsapp{
+    position: fixed;
+    bottom: 10px;
+    right: 8px;
+
+}
+
+.whatsapp a img{
+    width: 40px;
+}
+
+/* PÁGINA NOSOTROS */
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    row-gap: 20px; 
+    align-items: center;
+    margin: 30px;
+
+
+}
+
+.nosotros div img{
+    width: 400px;
+}
+
+.nosotros div p{
+    text-align: justify;
+}
+
+.nosotros h2{
+    letter-spacing: 40px;
+}
+
+/* PÁGINA PEDIDO */
+
+.confirmacion-pedido{
+    padding: 50px;
+}
+
+/* PAGINA CONTACTO */
+
+.contacto form{
+   margin: auto;
+   padding: 50px;
+}
+
+.contacto h2{
+    text-align: center;
+}
+
+.maps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.maps div p{
+    width: 500px;
+    text-justify: auto;
+
+}
+@media  screen and (min-width: 570px) {
+
+    header a h1{
+        font-size: 45px;
+        font-weight: 400;
+    }
+
+    .headerlogo a img{
+        width: 35px;
+    }
+
+    header div nav a{
+        font-size: 13px;
+    }
+
+    .imagenes-productos h2{
+        font-size: 25px;
+    }
+
+    section div img{
+        width: 250px;
+    }
+    
+    .imagenes-productos div div button{
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+    
+}
