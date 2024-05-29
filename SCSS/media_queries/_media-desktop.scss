@@ -1,0 +1,58 @@
+@media  screen and (min-width: 570px){
+    hader{
+        a{
+            h1{
+                font-size: 45px;
+                font-weight: 400;
+            }
+        }
+
+        .headerlogo{
+            a{
+                img{
+                    width: 35px;
+                }
+            }
+        }
+
+        div{
+            nav{
+                a{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+
+    .imagenesproductos{
+        h2{
+            font-size: 25px;
+        }
+
+        div{
+            div{
+                button{
+                    margin-left: 100px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    section{
+        div{
+            img{
+                width: 250px;
+            }
+        }
+
+        h3{
+            font-size: 25px;
+            margin-top: 20px;
+            text-align: center;
+        }
+    }
+
+
+}

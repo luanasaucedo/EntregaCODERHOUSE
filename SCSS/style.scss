@@ -1,0 +1,20 @@
+a{
+    text-decoration: none;
+}
+
+
+@import "./base/reset";
+
+@import "./componentes/botones";
+@import "./componentes/card";
+@import "./layout/header";
+@import "./layout/maps";
+@import "./layout/page-carrito";
+@import "./layout/page-contacto";
+@import "./layout/page-nosotros";
+@import "./layout/section-productos";
+@import "./layout/section-testimonios";
+@import "./layout/whatsapp";
+
+@import "./media_queries/media-desktop";
+

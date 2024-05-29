@@ -1,0 +1,15 @@
+.btn-buy{
+    --bs-btn-color: rgb(0, 0, 0);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #4f504f;
+    --bs-btn-active-color: #070707;
+    --bs-btn-hover-border-color: rgb(195, 193, 193), 10%;
+
+    a{
+        color: white;
+    }
+
+    p{
+        color: white;
+    }
+}

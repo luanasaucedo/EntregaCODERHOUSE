@@ -1,0 +1,25 @@
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    row-gap: 20px; 
+    align-items: center;
+    margin: 30px;
+        
+    div{
+
+        img{
+            width: 400px;
+        }
+
+        p{
+            text-align: justify;
+        }
+    }
+
+    h2{
+        letter-spacing: 40px;
+    }
+}
