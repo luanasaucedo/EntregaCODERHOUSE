@@ -1,8 +1,31 @@
+@mixin imagenes ($margin,$radius,$width,$shadow){
+    margin: $margin;
+    border-radius: $radius;
+    width: $width;
+    box-shadow: $shadow;
+}
+
 .testimonios{
+
+    padding: 10px;
+
     h3{
         font-size: 15px;
         margin-top: 20px;
         margin-bottom: 20px;
         text-align: center;
+    }
+
+    div{
+
+        margin: 5px, 10px;
+        text-align: center;
+
+        div{
+            
+            img{
+                @include imagenes (15px, 8px, 300px,0 0 20px rgba(0, 0, 0, 0.7));
+            }
+        }
     }
 }

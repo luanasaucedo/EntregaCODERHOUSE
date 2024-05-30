@@ -1,0 +1,6 @@
+@mixin imagenes ($margin,$radius,$width,$shadow){
+    margin: $margin;
+    border-radius: $radius;
+    width: $width;
+    box-shadow: $shadow;
+}

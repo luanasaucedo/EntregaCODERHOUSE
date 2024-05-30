@@ -1,3 +1,5 @@
+$color-letra: white;
+
 .btn-buy{
     --bs-btn-color: rgb(0, 0, 0);
     --bs-btn-hover-color: var(--bs-white);
@@ -6,10 +8,10 @@
     --bs-btn-hover-border-color: rgb(195, 193, 193), 10%;
 
     a{
-        color: white;
+        color:$color-letra;
     }
 
     p{
-        color: white;
+        color:$color-letra;
     }
 }
