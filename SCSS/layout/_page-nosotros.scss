@@ -1,0 +1,48 @@
+$color-negro:#000000;
+
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    row-gap: 20px; 
+    align-items: center;
+    margin: 30px;
+
+    h2{
+        text-shadow: 2px 2px 5px $color-negro;
+    }
+        
+    div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        img{
+            width: 400px;
+        }
+
+        p{
+            padding: 20px;
+            text-align: center;
+
+        }
+    }
+
+    h2{
+        letter-spacing: 40px;
+    }
+}
+
+.contacto{
+    form{
+        margin: auto;
+        padding: 50px;
+    }
+
+    h2{
+        text-align: center;
+    }
+}

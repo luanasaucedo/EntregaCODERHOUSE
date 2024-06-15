@@ -1,0 +1,50 @@
+
+@mixin imagenes ($margin,$radius,$width,$shadow){
+    margin: $margin;
+    border-radius: $radius;
+    width: $width;
+    box-shadow: $shadow;
+}
+
+.imagenes-productos {
+   
+    margin-left: 20px;
+    margin-right: 20px;
+
+    div{
+
+        align-items: center;
+        
+        div{
+            
+            img{
+                @include imagenes (15px, 8px, 150px,0 0 20px rgba(0, 0, 0, 0.7));
+                
+                }
+
+            button{
+                width: 60px;
+                height: 40px;
+                border-radius: 5px;
+                padding: 8px 10px;
+                color: #ffffff;
+                background-color: #000000;
+                margin-left: 40px;
+                margin-bottom: 10px;
+                display: block;
+                }
+
+            }
+        
+    }
+
+    h2{
+        display: block;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 15px;
+        }
+        
+    
+}

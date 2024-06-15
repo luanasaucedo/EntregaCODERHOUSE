@@ -1,0 +1,17 @@
+$widht-text: 50%;
+
+.card{
+    border-radius: 50px;
+
+    .card-body{
+        img{
+            width: $widht-text;
+            margin-bottom: 10px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        p{
+            width: $widht-text;
+        }
+    }
+}
