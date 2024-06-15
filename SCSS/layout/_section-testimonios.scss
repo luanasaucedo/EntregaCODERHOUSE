@@ -5,9 +5,11 @@
     box-shadow: $shadow;
 }
 
+$widht-text: 30%;
+
 .testimonios{
 
-    padding: 10px;
+    padding: 20px;
 
     h3{
         font-size: 15px;
@@ -20,11 +22,18 @@
 
         margin: 5px, 10px;
         text-align: center;
+        
 
         div{
             
             img{
                 @include imagenes (15px, 8px, 300px,0 0 20px rgba(0, 0, 0, 0.7));
+            }
+
+            div{
+                p{
+                    width: $widht-text;
+                }
             }
         }
     }
